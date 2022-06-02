@@ -6,27 +6,27 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
+  is_online_only: false
   online_location: "online"
   online_location_title: "The Internet"
   online_location_info: "The conference is taking place virtually"
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2021.eventbrite.com"
+  buy_tickets_url: "https://reactjsday-2022.eventbrite.com"
   # additional info for microdata / schema.org
-  #md_city: "Verona"
-  #md_province: "VR"
-  #md_postal_code: "37138"
-  #md_address: "Via Longhena 42"
+  md_city: "Verona"
+  md_province: "VR"
+  md_postal_code: "37138"
+  md_address: "Via Longhena 42"
   organizer_url: "http://grusp.org/"
   # contact email
-  contact_email: "rubyday@grusp.org"
+  contact_email: "reactjsday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "rubyday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "reactjsday 2022"
+  city: "Verona"
+  date: 2022-10-21T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -51,17 +51,16 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2021-07-01T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "RubyDay 2020 is the 9th edition of the Italian Ruby conference, for the 3rd year in a row organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "reactjsday 2022 is the 8th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
-  <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
-  <br />
-  <br> Due to the current pandemic situation, the 2021 edition is taking place online."
+  <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.
+  <br> <br />reactjsday 2022 is happening in Verona and online on Friday, October 21st 2022."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -72,11 +71,11 @@ conference:
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
     php: false
-    javascript: false
+    javascript: true
     design: false
     devops: false
-    frontend: false
-    ruby: true
+    frontend: true
+    ruby: false
     entrepreneurship: false
     local_events: false
     everything: false
@@ -91,22 +90,17 @@ conference:
   newsletter_disclaimer: "We use Mailchimp as our email marketing platform. By subscribing to the newsletter, you accept that your data are transmitted to Mailchimp to be processed. "
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
-  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden	
+  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
   speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text:
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
-  topics_visible: true
+  topics_visible: false
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Ruby"
-    - "Ruby On Rails"
-    - "Security"
-    - "Testing"
-    - "Continuous Integration"
-    - "API"
+    - ""
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -115,7 +109,7 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: true
+  media_visible: false
   media_pic_1: ""
   media_pic_2: ""
   media_pic_3: ""
@@ -128,13 +122,13 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unlmbmKg6j1CjG8PMmMuZqTL"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+  location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
@@ -142,15 +136,15 @@ conference:
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
   sponsors_visible: true
-  sponsor_title_home: "Sponsors"
+  sponsor_title_home: "Thanks for supporting reactjsday"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/rubydayit/"
+  social_fb_url: "https://www.facebook.com/reactjsday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/rubydayit"
+  social_twitter_url: "https://twitter.com/reactjsday"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
@@ -159,17 +153,16 @@ conference:
   back_to_home_label: "back to home page"
   # footer
   #   this is for the "previous editions" links
-  base_url: "rubyday.it/"
+  base_url: "reactjsday.it/"
   past_editions_pre: "Browse past editions:"
   past_editions:
-    2011: "2011"
-    2012: "2012"
-    2013: "2013"
-    2014: "2014"
     2015: "2015"
     2016: "2016"
+    2017: "2017"
+    2018: "2018"
     2019: "2019"
     2020: "2020"
+    2021: "2021"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
