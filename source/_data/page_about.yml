@@ -28,7 +28,7 @@ team:
     member_2:
       name: "Michela Bertaina"
       role: "Community Manager"
-      pic_filename: "michela.png"
+      pic_filename: "michela.jpg"
     member_3:
       name: "Giovanna Ferrari"
       role: "Sponsors Manager"
@@ -37,3 +37,19 @@ team:
       name: "Alessandro 'Cirpo' Cinelli"
       role: "Technical Committee"
       pic_filename: "cirpo.jpeg"
+    member_5:
+      name: "Matteo Beccati"
+      role: "GrUSP Board Member"
+      pic_filename: "matteo.jpg"
+    member_6:
+      name: "Cesare D'Amico"
+      role: "GrUSP Board Member"
+      pic_filename: "cesare.jpg"
+    member_7:
+      name: "Daniel Londero"
+      role: "GrUSP Board Member"
+      pic_filename: "daniel.jpg"
+    member_8:
+      name: "Francesco Fullone"
+      role: "Troublemaker"
+      pic_filename: "fullo.jpg"
