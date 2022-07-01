@@ -48,6 +48,10 @@ silver:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
+  sponsor7:
+    name: "Young Platform"
+    logo_filename: "young-platform.svg"
+    site_url: "https://youngplatform.com/"
 bronze:
   sponsor1:
     name: "StickerMule"
