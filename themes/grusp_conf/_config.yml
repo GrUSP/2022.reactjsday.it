@@ -11,11 +11,12 @@ menu:
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
-  workshop: workshop
+  workshop: workshops
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
   good_react_components: Principles and patterns in designing good React components
+  workshop_Unit-Test: Integrare Unit e E2E test in applicazioni React 18
 
 # welcome submenu
 welcome_submenu:

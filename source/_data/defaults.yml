@@ -60,7 +60,8 @@ conference:
   geninfo_description: "reactjsday 2022 is the 8th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.
-  <br> <br />reactjsday 2022 is happening in Verona and online on Friday, October 21st 2022."
+  <br> <br /><b>reactjsday 2022 is happening in Verona and online on Friday, October 21st 2022.</b><br>
+  On the day before the conference (Thursday, October 20th) we are hosting two different <a href='https://2022.reactjsday.it/workshop/'>workshops.</a> The tickets are sold separately."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"

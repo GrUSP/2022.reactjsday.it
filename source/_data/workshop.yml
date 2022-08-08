@@ -27,10 +27,10 @@ workshops:
     location_additional_info: "The hotel offers discounts for participants, contact them for more details."
     whatandwhen_title: "How and when"
     # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-    whatandwhen_additional_info: "The workshop takes place in person, on Thursday 20th October 2022 from 9:30 to 5:30."
+    whatandwhen_additional_info: "The workshop takes place in person, on Thursday 20th October 2022, from 9:30 to 6:00."
     date: 2022-10-08T09:30+02:00
     end_date: 2020-09-15T16:30+02:00
-    date_text: "Thursday 20th October 2022, 9:30-5:30"
+    date_text: "Thursday 20th October 2022, 9:30-6:00"
     language_title: "Language"
     language: "English"
     language_ext: ""
@@ -39,7 +39,7 @@ workshops:
     description: "Principles of good architecture, and how to apply them to a real-world React use case."
     description_long: "Designing good React components that can help the team steadily build reliable features while maintaining a quality codebase is not an easy feat.
     <br> <br />
-    <b>In this workshop of 8 hours, we’re gonna cover principles of good architecture and how to apply them to a real-world React use case.</b>
+    <b>In this workshop, we’re gonna cover principles of good architecture and how to apply them to a real-world React use case.</b>
     <br> <br />
     Throughout the workshop, we’re gonna development a sandbox application and explore how to design good React software. Topics include decomposing UI complexity into proper components, enforcing business rules in the type system, composing asynchronous side-effects and testing everything of course.
     <br> <br />"
@@ -91,3 +91,99 @@ I enjoy spending time chatting in the Italian JS communities and I speak sometim
      <br>Please note that tickets for the workshop are sold separately from the conference."
     # CTA
     cta_title: "Hurry up. There are only a few available places!"
+  workshop_Unit-Test:
+    ws_id: workshop_Unit-Test
+    is_external: false
+    page_uri: "workshop/workshop_Unit-Test.html"
+    page_title: "Integrare Unit e E2E test in applicazioni React 18"
+    workshop_title: "Workshop: Integrare Unit e E2E test in applicazioni React 18"
+    ticket_url: "https://reactjsday-2022.eventbrite.com"
+    ticket_label: "Assicurati un posto"
+    location_title: "Dove"
+    location: "Verona"
+    # online_location: "online"
+    location_name: "Hotel San Marco, Verona"
+    # location_name: "The Internet"
+    #location_contact_phone: "+045569011"
+    #location_contact_email: "sanmarco@sanmarco.vr.it"
+    location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    location_maps_label: "Get directions"
+    location_additional_info: "L'hotel offre tariffe convenzionate a chi partecipa all'evento."
+    whatandwhen_title: "Come e quando"
+    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+    whatandwhen_additional_info: "Il corso si svolge in presenza, Giovedì 20 Ottobre dalle 09:30 alle 16:30."
+    date: 2022-10-20T10:00+02:00
+    end_date: 2020-10-20T17:30+02:00
+    date_text: "Giovedì 20 Ottobre 2022, dalle 09:30 alle 16:30."
+    language_title: "Lingua"
+    language: "italian / italiano"
+    language_ext: "Language: Italian / Lingua: italiano"
+    language_additional_info: "No translation provided."
+    collab: "Impara ad integrare i primi unit e E2E test in applicazioni React 18 con Cypress e React Testing library."
+    description: "Impara ad integrare i primi unit e E2E test in applicazioni React 18 con Cypress e React Testing library."
+    description_long: "<b>'L'integrazione di test in applicazioni front-end è troppo complesso e costoso!'</b> Quante volte avete sentito o letto questa frase?
+    <br>Tuttavia, i tool di ultima generazione hanno notevolmente semplificato il processo di creazione e integrazione di test.
+    <br><b>In questo corso della durata di 5 ore analizzeremo i vantaggi di integrare Unit test e E2E test in Single Page Application sviluppate in React 18/TypeScript,</b>
+    partendo dalla configurazione degli strumenti ed esplorando diverse tecniche per la loro integrazione in moltissimi scenari e casi d’uso.
+    <br> <br />Il corso è strutturato in due parti:
+    <b><h3>1) E2E Test con Cypress</b></h3>
+    Cypress è lo strumento attualmente più utilizzato per l'integrazione di test E2E, ovvero la possibilità di testare la tua applicazione simulando le interazioni dell'utente e verificando che si comporti come previsto.
+    Ma non solo, Cypress ha recentemente introdotto la possibilità di testare singoli componenti in modo isolato. Analizzeremo quindi, diverse strategie per testare componenti riutilizzabili, spesso utili nello sviluppo di UIKIT e librerie.
+    <br> <br />Alcuni degli argomenti trattati:
+    <ul>
+    <li>- lavorare con selettori ed eventi allo scopo di simulare le interazioni dell'utente
+    <li>- testare intere pagine di applicazioni sviluppate in React 18 e React Router </li>
+    <li>- testare form </li>
+    <li>- integrare test in pagine con interazioni complesse e/o sequenziali: modali, dialog, dropdown e altro</li>
+    <li>- utilizzo degli Interceptor per il mocking di API REST </li>
+    <li>- creare comandi e routine  riutilizzabili</li>
+    <li>- testare componenti isolati</li>
+    </ul>
+    <br> <br />
+    <b><h3>2) Unit Test con React Testing Library</b></h3>
+    React Testing Library, attualmente, è una delle librerie più semplici e utilizzate per l'integrazione di test unitari nell’ecosistema React.
+    La filosofia alla base di questa libreria consiste nella creazione di test semplici da manutenere, slegandosi totalmente dall'implementazione e focalizzandosi sulle interazioni dell'utente.
+    <br> <br />In questa parte del corso ci focalizzeremo particolarmente sulla testabilità di componenti e hook riutilizzabili:
+    <ul>
+    <li>- linee guida sulla creazione di codice testabile</li>
+    <li>- analisi delle API della libreria</li>
+    <li>- creare test unitari per componenti riutilizzabili</li>
+    <li>- testare custom hook</li>
+    <li>- mock di librerie di terze parti</li>
+    <li>- mock di API REST</li>
+    </ul>"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docenti"
+    teachers:
+      teacher_1:
+        teacher_name: "Fabio Biondi"
+        teacher_bio: "Fabio Biondi, Microsoft MVP e Google Developer Expert, è uno sviluppatore freelance con più di 15 anni di esperienza nella creazione di applicazioni web enterprise.
+        Speaker in numerosi eventi front-end, ha inoltre fondato diverse community italiane che si occupano di Javascript, Angular e React (~30000 membri)
+        Attualmente si occupa di formazione e consulenza su Javascript, Typescript, Angular, React, Redux, Next, NGRX e RxJS.
+        Trovi Fabio su <a href='https://www.twitch.tv/fabio_biondi'>Twitch</a>, <a href='https://www.youtube.com/c/FabioBiondi'>YouTube</a> e <a href='https://www.linkedin.com/in/fabiobiondi'>LinkedIn.</a>"
+        pic_filename: "fabio_biondi.png"
+        teacher_role: "Microsoft MVP e Google Developer Expert"
+        teacher_org: ""
+      teacher_2:
+        teacher_name: "Luca Del Puppo"
+        teacher_bio: "Sono un Full Stack Developer in Flowing. Appassionato di Agile e amante di tutto il mondo Js!
+        Nel mio tempo libero pratico Trail Running, mi piace studiare nuove tecnologie e quando posso vado nelle mie amate Dolomiti per vedere i loro spettacolari panorami senza mai dimenticarmi di fare una sosta in rifugio per gustarmi una bella fetta di strudel."
+        pic_filename: "luca-delpuppo.png"
+        teacher_role: "Full Stack Developer"
+        teacher_org: ""
+    topics_title: ""
+    topics:
+      -
+    addressees_title: "A chi è rivolto"
+    addressees_description: "Il corso si rivolge a chi sviluppa con React e non ha mai integrato test nelle proprie applicazioni, e desidera comprenderne i principi fondamentali."
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Possedere una certa confidenza nello sviluppo di applicazioni React: saper organizzare l'applicazione in componenti, utilizzo di props e state, comunicazione con REST API, gestione form."
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il corso si svolge a Verona, nella stessa location di reactjsday, il giorno prima della conferenza. Sono inclusi nel prezzo il pranzo e le pause caffè. <b>Il biglietto per il corso è venduto separatamente da quello per la conferenza.</b>"
+    # CTA
+    cta_title: "Non perderti questa giornata di formazione"
