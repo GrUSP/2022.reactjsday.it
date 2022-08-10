@@ -33,7 +33,7 @@ workshops:
     date_text: "Thursday 20th October 2022, 9:30-6:00"
     language_title: "Language"
     language: "English"
-    language_ext: ""
+    language_ext: "🇬🇧 This workshop is held in English language"
     language_additional_info: ""
     collab: ""
     description: "Principles of good architecture, and how to apply them to a real-world React use case."
@@ -91,6 +91,7 @@ I enjoy spending time chatting in the Italian JS communities and I speak sometim
      <br>Please note that tickets for the workshop are sold separately from the conference."
     # CTA
     cta_title: "Hurry up. There are only a few available places!"
+
   workshop_Unit-Test:
     ws_id: workshop_Unit-Test
     is_external: false
@@ -119,9 +120,9 @@ I enjoy spending time chatting in the Italian JS communities and I speak sometim
     date_text: "Giovedì 20 Ottobre 2022, dalle 09:30 alle 16:30."
     language_title: "Lingua"
     language: "italian / italiano"
-    language_ext: "Language: Italian / Lingua: italiano"
+    language_ext: "🇮🇹 This workshop is held in Italian language"
     language_additional_info: "No translation provided."
-    collab: "Impara ad integrare i primi unit e E2E test in applicazioni React 18 con Cypress e React Testing library."
+    collab: ""
     description: "Impara ad integrare i primi unit e E2E test in applicazioni React 18 con Cypress e React Testing library."
     description_long: "<b>'L'integrazione di test in applicazioni front-end è troppo complesso e costoso!'</b> Quante volte avete sentito o letto questa frase?
     <br>Tuttavia, i tool di ultima generazione hanno notevolmente semplificato il processo di creazione e integrazione di test.
@@ -176,9 +177,12 @@ I enjoy spending time chatting in the Italian JS communities and I speak sometim
         pic_filename: "luca-delpuppo.png"
         teacher_role: "Full Stack Developer"
         teacher_org: ""
-    topics_title: ""
+    topics_title: "In questo corso imparerai a:"
     topics:
-      -
+      - "Strutturare applicazioni e componenti testabili, best practices e clean coding"
+      - "Integrare Unit Test con React Testing Library e Jest"
+      - "Integrare test End-To-End con Cypress per testare intere applicazioni"
+      - "Integrare test End-To-End con Cypress per testare componenti in modo isolato"
     addressees_title: "A chi è rivolto"
     addressees_description: "Il corso si rivolge a chi sviluppa con React e non ha mai integrato test nelle proprie applicazioni, e desidera comprenderne i principi fondamentali."
     requirements_title: "Requisiti di partecipazione"
