@@ -25,30 +25,34 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "Belka"
+    logo_filename: "belka.svg"
+    site_url: "http://belkadigital.com"
+  sponsor2:
     name: "CentralReach"
     logo_filename: "centralreach.svg"
     site_url: "https://centralreach.com/"
-  sponsor2:
+  sponsor3:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor3:
+  sponsor4:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor4:
+  sponsor5:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor5:
+  sponsor6:
     name: "SiteGround"
     logo_filename: "siteground.png"
     site_url: "https://www.siteground.com/"
-  sponsor6:
+  sponsor7:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor7:
+  sponsor8:
     name: "Young Platform"
     logo_filename: "young-platform.svg"
     site_url: "https://youngplatform.com/"

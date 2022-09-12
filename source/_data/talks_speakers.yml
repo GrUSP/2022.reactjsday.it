@@ -1,22 +1,70 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 social_lineup_image: "social-lineup-1200x630.png"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &Arisa
+  speaker_in_speaker_lists: true
+  speaker_name: Arisa Fukuzaki
+  speaker_pic_filename: arisa-fukuzaki.png
+  speaker_role: "Developer Relations Engineer @ Storyblok"
+  speaker_bio: "Arisa is a DevRel Engineer at Storyblok & an organizer of a free tech skill & knowledge-sharing community, Lilac. Her mission is to learn, speak, connect and help. In her private time, she is a GDE, an Aikido fighter, GirlCode ambassador, and a Front-End-Foxes School mentor."
+  speaker_github_url: "https://github.com/schabibi1"
+  speaker_twitter_url: "https://twitter.com/arisa_dev"
   is_mc: false
-
+speaker_2: &Jenny
+  speaker_in_speaker_lists: true
+  speaker_name: Jenny Lea
+  speaker_pic_filename: jenny-lea.png
+  speaker_role: "Software Engineer @ Figma"
+  speaker_bio: "I am a Software Engineer at Figma, hailing from Leeds in the UK. I have always worked full stack but there is a special place in my heart for anything visual, which has lead me to my role on the Developer Tools team at Figma. What excites me about technology is being able to rapidly iterate on things and work with the smartest people around to build cool stuff! In my spare time I enjoy hanging out with my cat, oil painting and getting out into the countryside on my own two feet."
+  speaker_github_url: "https://github.com/j-lea"
+  is_mc: false
+speaker_3: &Konstantinos
+  speaker_in_speaker_lists: true
+  speaker_name: Konstantinos Leimonis
+  speaker_pic_filename: konstantinos-leimonis.png
+  speaker_role: "Staff Software Engineer @ DAZN	"
+  speaker_bio: "Software Engineer and Tech Lead. Currently building a better micro-frontend platform at DAZN, mentoring and helping teams with tech initiatives, focusing on system architecture, monitoring and observability. I enjoy working with new technologies and scaling React apps and teams."
+  speaker_github_url: "https://github.com/leimonio"
+  speaker_twitter_url: "https://twitter.com/leimonio"
+  is_mc: false
+speaker_4: &Stefano
+  speaker_in_speaker_lists: true
+  speaker_name: Stefano Magni
+  speaker_pic_filename: stefano-magni.png
+  speaker_role: "Front-end Tech Leader (Platform) @ Hasura"
+  speaker_bio: "Hi! 👋 I’m Stefano Magni, and I’m a passionate Front-end Engineer, a speaker, and an instructor. I love creating high-quality products, testing and automating everything, learning and sharing my knowledge, helping people, speaking at conferences, and facing new challenges."
+  speaker_github_url: "https://github.com/NoriSte"
+  speaker_twitter_url: "https://twitter.com/NoriSte"
+  is_mc: false
+speaker_5: &Kathleen
+  speaker_in_speaker_lists: true
+  speaker_name: Kathleen McMahon
+  speaker_pic_filename: kathleen-mcmahon.png
+  speaker_role: "Senior Design Systems Engineer @ Northwestern Mutual"
+  speaker_bio: "Kathleen is a software engineer, designer, and conference speaker, who has deep industry experience that fuels her passion for making apps beautifully accessible. Currently a Senior Design Systems Engineer at Northwestern Mutual, she's also a Color Module Specification Editor for the W3C Design Tokens Community Group. In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet."
+  speaker_github_url: "https://github.com/resource11"
+  speaker_twitter_url: "https://twitter.com/resource11"
+  is_mc: false
+speaker_6: &Fabrizio
+  speaker_in_speaker_lists: true
+  speaker_name: Fabrizio Rizzonelli
+  speaker_pic_filename: fabrizio-rizzonelli.png
+  speaker_role: "Engineering Manager @ Belka"
+  speaker_bio: "Fabrizio is an EM which moved to the new career path in the last year after 9 years of coding. He loved to focus on Mobile environment and Frontend in general. Proud co-founder of basketball association, he also loves to play sports and outdoor activities and hydrates himself with crafted beers 🍺🏀"
+  speaker_github_url: "https://github.com/frizzonelli"
+  speaker_twitter_url: "https://twitter.com/ivolnelly"
+  is_mc: false
 speakers:
-  speaker_1: *speaker
+  speaker_1: *Arisa
+  speaker_2: *Jenny
+  speaker_3: *Konstantinos
+  speaker_4: *Stefano
+  speaker_5: *Kathleen
+  speaker_6: *Fabrizio
 
 tracks:
   track_1: &track_1
@@ -38,63 +86,118 @@ tracks:
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 days:
   day_1:
-    date: 2022-05-19T09:15+02:00
+    date: 2022-10-21T09:15+02:00
     title: "Day 1"
     talks:
       # service
       checkin:
         item_type: "service"
-        start_datetime: 2022-05-19T08:30+02:00
-        end_datetime: 2022-05-19T09:15+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Check-in and Welcome Coffee"
       opening:
         item_type: "service"
-        start_datetime: 2022-05-19T09:15+02:00
-        end_datetime: 2022-05-19T09:30+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Opening by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2022-05-19T11:05+02:00
-        end_datetime: 2022-05-19T11:25+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T16:20+02:00
-        end_datetime: 2022-05-19T16:50+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       happy-hour:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
+        start_datetime: 2022-10-21T08:30+02:00
+        end_datetime: 2022-10-21T09:15+02:00
         talk_title: "Happy Hour"
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      Remix:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "Remix your UI & UX to another level"
+        talk_description: "Build performant web apps with a full-stack framework, Remix. Remix focuses on the UI to enjoy fast & resilient UX. Experience the 'Remix magic' that enables no fetching & pre-fetch all in parallel before users make actions. As Remix focuses on UI & UX, why not share the 'Remix magic' with the business users? In this talk, we’re going to see together the combination of the new generation of a full-stack framework, Remix & a visual editor integrated headless CMS (Storyblok). Are you ready to explore a whole new level of experience?"
+        # talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *Arisa
+      Figma-Widget:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "Building Figma’s Widget Code Generator"
+        talk_description: "Widgets are custom, interactive objects you place in a Figma or Figjam file to extend functionality and make everything a bit more fun. They are written in a declarative style similar to React components, which gets translated to become a node on the canvas. So can you go the other way, from canvas to code? Yes! We created Widget Code Generator that allows you go to from Design -> Widget interface in a button click.
+        We’ll discuss how we used the public Figma plugin API to generate widget code from a design file, and make a working widget together using this."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Jenny
+      React-Microfrontends:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "Keep sane with React & Microfrontends in production"
+        talk_description: "	Teams are getting bigger by applying micro-frontends using React, but complexity tracking production issues can become extremely confusing when no clear responsibilities are met. That’s when observability for teams and applications on a scale becomes even more important, in order to be able to identify potential issues in production, separate the concerns and the responsibilities among them. In this presentation we’ll learn how we can achieve this."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Konstantinos
+      readeble-codebase:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "How do I avoid the next developer reading my code swearing at me"
+        talk_description: "Reading, understanding, and refactoring a TypeScript+React application can be challenging, even if it's small.
+        I will tell you my story of when I jumped on the codebase of a small product to implement some last-minute changes before going live. I had an overall idea of what the product does, and the external team that worked on it received comprehensive documentation of our coding patterns and thorough code reviews. Despite that, being effective since the first day was hard for me.
+        Why? Because four of the most important details that make a codebase immediately readable were missing, which are:
+        <ul>
+        <li>- TypeScript' Discriminated Unions instead of optional properties (helpful to describe the domain)</li>
+        <li>- Straightforward JSX code (ease reading and jumping through the code)</li>
+        <li>- Explicit State Machines (describe what the app does from an internal perspective)</li>
+        <li>- Cypress integration tests (tell what the app does from an external perspective)</li>
+        </ul>
+        Apart from a long series of best practices, the listed ones are the most used in WorkWave RouteManager, a 250k-LOC front-end application."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Stefano
+      Design-System-Carnival:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "Design System Carnival! One accessible component, many pretty masks."
+        talk_description: "Design System components are like guests at the Venetian Carnival — enjoying the festivities, and attending the Masquerade Balls. One guest in particular — the dropdown widget — is powerful yet elusive, and is known for wearing many distinct masks including the tooltip, dropdown, popover menus, and more. Their appearance at the party turns a simple masquerade into a Grand Ball. In this talk, you’ll learn the secret to creating a reusable — and accessible — component that can masquerade as many, and elevate your component library to the most exclusive of Carnival attractions."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Kathleen
+      DevEx-React-Native:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "5 years of DEVeloper EXperience in React Native"
+        talk_description: "Stating that React Native’s mission is ambitious is an understatement. The promise of building applications for basically every platform is HARD.
+        After using the framework for five years I think that React Native is superb. I love it. However, I must admit that is not flawless.
+        I started using React Native in production in 2017. I will share with you what happened to the framework during my long journey. All the joys and the pains, what it definitely sucked and what makes me say today 'after all it was the right choice'.
+        I’ll go through practical cases of apps that are used by hundreds of thousands of people, the mistakes you can avoid (because I already did it) and the A-HA! moments I had.
+        I will walk you through React Native improvements during the years and what is the state of the art as today for developing an app starting from React. Spoiler alert: is not as simple as running a web app on a browser but it’s been dramatically improving year after year.
+        At the end you will be able to start with the right tools and evaluate the new ones, thanks to my experience after all this years of developing with this framework."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Fabrizio
