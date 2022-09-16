@@ -5,7 +5,16 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 social_lineup_image: "social-lineup-1200x630.png"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &Arisa
+speaker_1: &Alessandro
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Cifani
+  speaker_pic_filename: alessandro-cifani.png
+  speaker_role: "Staff Engineer @ Subito"
+  speaker_bio: "Alessandro Cifani is a software engineer and all-around geek passionate about web performance and accessibility. He is a Staff Engineer and Tech Lead at Subito, where he has been working on improving developer experience and productivity."
+  speaker_github_url: "https://github.com/acifani"
+  speaker_twitter_url: "https://twitter.com/acifani_"
+  is_mc: false
+speaker_2: &Arisa
   speaker_in_speaker_lists: true
   speaker_name: Arisa Fukuzaki
   speaker_pic_filename: arisa-fukuzaki.png
@@ -14,7 +23,16 @@ speaker_1: &Arisa
   speaker_github_url: "https://github.com/schabibi1"
   speaker_twitter_url: "https://twitter.com/arisa_dev"
   is_mc: false
-speaker_2: &Jenny
+speaker_3: &Jiayi
+  speaker_in_speaker_lists: true
+  speaker_name: Jiayi Hu
+  speaker_pic_filename: jiayi-hu.png
+  speaker_role: "Senior Engineer @ IBV"
+  speaker_bio: "I’m currently working remotely as Front-end Consultant and Trainer. I’ve spent countless hours writing TypeScript and React for a variety of companies located in Europe. Likewise I’ve taught many people how to write good software in TS and React, or at least I’ve tried. I enjoy spending time chatting in the Italian JS communities and I speak sometimes at public tech events. In my spare time, I enjoy reading Baricco or Murakami and experimenting in the kitchen. Or just chilling somewhere with fresh air."
+  speaker_github_url: "https://github.com/jiayihu"
+  speaker_twitter_url: "https://twitter.com/jiayi0x10"
+  is_mc: false
+speaker_4: &Jenny
   speaker_in_speaker_lists: true
   speaker_name: Jenny Lea
   speaker_pic_filename: jenny-lea.png
@@ -22,7 +40,7 @@ speaker_2: &Jenny
   speaker_bio: "I am a Software Engineer at Figma, hailing from Leeds in the UK. I have always worked full stack but there is a special place in my heart for anything visual, which has lead me to my role on the Developer Tools team at Figma. What excites me about technology is being able to rapidly iterate on things and work with the smartest people around to build cool stuff! In my spare time I enjoy hanging out with my cat, oil painting and getting out into the countryside on my own two feet."
   speaker_github_url: "https://github.com/j-lea"
   is_mc: false
-speaker_3: &Konstantinos
+speaker_5: &Konstantinos
   speaker_in_speaker_lists: true
   speaker_name: Konstantinos Leimonis
   speaker_pic_filename: konstantinos-leimonis.png
@@ -31,7 +49,7 @@ speaker_3: &Konstantinos
   speaker_github_url: "https://github.com/leimonio"
   speaker_twitter_url: "https://twitter.com/leimonio"
   is_mc: false
-speaker_4: &Stefano
+speaker_6: &Stefano
   speaker_in_speaker_lists: true
   speaker_name: Stefano Magni
   speaker_pic_filename: stefano-magni.png
@@ -40,7 +58,7 @@ speaker_4: &Stefano
   speaker_github_url: "https://github.com/NoriSte"
   speaker_twitter_url: "https://twitter.com/NoriSte"
   is_mc: false
-speaker_5: &Kathleen
+speaker_7: &Kathleen
   speaker_in_speaker_lists: true
   speaker_name: Kathleen McMahon
   speaker_pic_filename: kathleen-mcmahon.png
@@ -49,7 +67,7 @@ speaker_5: &Kathleen
   speaker_github_url: "https://github.com/resource11"
   speaker_twitter_url: "https://twitter.com/resource11"
   is_mc: false
-speaker_6: &Fabrizio
+speaker_8: &Fabrizio
   speaker_in_speaker_lists: true
   speaker_name: Fabrizio Rizzonelli
   speaker_pic_filename: fabrizio-rizzonelli.png
@@ -59,12 +77,14 @@ speaker_6: &Fabrizio
   speaker_twitter_url: "https://twitter.com/ivolnelly"
   is_mc: false
 speakers:
-  speaker_1: *Arisa
-  speaker_2: *Jenny
-  speaker_3: *Konstantinos
-  speaker_4: *Stefano
-  speaker_5: *Kathleen
-  speaker_6: *Fabrizio
+  speaker_1: *Alessandro
+  speaker_2: *Arisa
+  speaker_3: *Jiayi
+  speaker_4: *Jenny
+  speaker_5: *Konstantinos
+  speaker_6: *Stefano
+  speaker_7: *Kathleen
+  speaker_8: *Fabrizio
 
 tracks:
   track_1: &track_1
@@ -126,6 +146,16 @@ days:
         service_icon: "glass"
 
       # talk
+      monorepo:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "Subito’s journey to a scalable monorepo"
+        talk_description: "Should you use a monorepo? Will it scale? In this talk you will learn if a monorepo can help you and give you all the tools to succeed. We will go through Subito’s journey to a scalable monorepo: we’ll cover why we chose a monorepo for our shared libraries and components, what challenges we encountered and what we learned from them."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Alessandro
       Remix:
         item_type: "talk"
         track: *track_1
@@ -136,6 +166,17 @@ days:
         # talk_video_url:
         speakers:
           speaker_1: *Arisa
+      software-design:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-10-21T08:30+02:00
+        # end_datetime: 2022-10-21T09:15+02:00
+        talk_title: "A philosophy of React software design"
+        talk_description: "Directly inspired by John Ousterhout's great book about designing good software, this talk presents an opinionated take on the principles and patterns to follow when programming in React.
+        We start first with an understanding of the nature of complexity, and then we proceed to evaluate how to best approach problems like component abstractions, API and composition. What should be included in a React component? How should we divide them? Which principles should we follow when designing the Component props? These are only a few of the everyday design decisions we have to make. This talk wants to provide opinionated guidance for these kinds of questions."
+        # talk_video_url:
+        speakers:
+          speaker_1: *Jiayi
       Figma-Widget:
         item_type: "talk"
         track: *track_1

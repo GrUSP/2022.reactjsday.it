@@ -58,11 +58,15 @@ silver:
     site_url: "https://youngplatform.com/"
 bronze:
   sponsor1:
+    name: "Hasura"
+    logo_filename: "hasura.svg"
+    site_url: "https://cloud.hasura.io/signup"
+  sponsor2:
     name: "StickerMule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
 diversity:
-  sponsor1:
+  sponsor3:
     name: "StoryBlok"
     logo_filename: "storyblok.svg"
     site_url: "https://www.storyblok.com/"
