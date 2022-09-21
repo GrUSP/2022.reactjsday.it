@@ -6,6 +6,10 @@ sponsors_block_title: "Thanks for supporting reactjsday!"
 #     site_url: ""
 diamond:
   sponsor1:
+    name: "eDreams Odigeo"
+    logo_filename: "edreams-odigeo.svg"
+    site_url: "https://www.edreamsodigeo.com/"
+  sponsor2:
     name: "Subito"
     logo_filename: "subito.svg"
     site_url: "https://info.subito.it/lavora-con-noi.htm"
