@@ -61,6 +61,10 @@ silver:
     logo_filename: "young-platform.svg"
     site_url: "https://youngplatform.com/"
 bronze:
+  sponsor0:
+    name: "extera"
+    logo_filename: "extera.png"
+    site_url: "ttps://www.extera.com/"
   sponsor1:
     name: "Hasura"
     logo_filename: "hasura.svg"
