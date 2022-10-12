@@ -76,6 +76,13 @@ speaker_8: &Fabrizio
   speaker_github_url: "https://github.com/frizzonelli"
   speaker_twitter_url: "https://twitter.com/ivolnelly"
   is_mc: false
+speaker_9: &Edoardo
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: edoardo-dusi.png
+  speaker_role: "Lead Developer @ SparkFabrik"
+  speaker_bio: ""
+  is_mc: true
 speakers:
   speaker_1: *Alessandro
   speaker_2: *Arisa
@@ -85,6 +92,7 @@ speakers:
   speaker_6: *Stefano
   speaker_7: *Kathleen
   speaker_8: *Fabrizio
+  speaker_9: *Edoardo
 
 tracks:
   track_1: &track_1

@@ -20,10 +20,18 @@ diamond:
 #     site_url: ""
 gold:
   sponsor1:
+    name: "Jobtech"
+    logo_filename: "jobtech.svg"
+    site_url: "https://jobtech.it"
+  sponsor2:
+    name: "Reactbriks"
+    logo_filename: "reactbriks.svg"
+    site_url: "https://reactbricks.com"
+  sponsor3:
     name: "StoryBlok"
     logo_filename: "storyblok.svg"
     site_url: "https://www.storyblok.com/"
-  sponsor2:
+  sponsor4:
     name: "WorkWave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
