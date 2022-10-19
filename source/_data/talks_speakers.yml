@@ -156,6 +156,12 @@ days:
         start_datetime: 2022-10-21T17:50+02:00
         end_datetime: 2022-10-21T18:00+02:00
         talk_title: "Closing by GrUSP"
+      happy-hour:
+        item_type: "service"
+        start_datetime: 2022-10-21T18:00+02:00
+        end_datetime: 2022-10-21T19:00+02:00
+        talk_title: "Happy Hour"
+        service_icon: "glass"
 
       # talk
       software-design:
